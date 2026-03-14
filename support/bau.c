@@ -7,6 +7,7 @@ int main()
 	printf("Scrie 2 numere:\n");
 	scanf("%d %d", &a, &b);
 	printf("Suma magica dintre %d si %d este: %d\n", a, b, a + b + 5);
+	printf("Daaaar, diferenta lor est: %d\n", a - b -1);
 
 	return 0;
 }
